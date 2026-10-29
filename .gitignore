@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+/fig*.png
+/student_performance_dataset.csv
+/assets/student_performance_dataset.csv
