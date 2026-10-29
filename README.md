@@ -6,7 +6,7 @@ A Python coursework project exploring missing data, relationships between studen
 
 **Status:** Runnable coursework demonstration; evaluation limitations are documented below.
 
-[Overview](#overview) · [Data](#data) · [Getting started](#getting-started) · [Outputs](#outputs) · [Limitations](#limitations) · [Contributors](#contributors)
+[Overview](#overview) · [Data](#data) · [Getting started](#getting-started) · [Outputs](#outputs) · [Limitations](#limitations) · [My contribution](#my-contribution)
 
 ## Overview
 
@@ -121,8 +121,12 @@ The implementation prints results and saves plots; it does not export a trained 
 
 A future revision should separate predictors from the target before imputation, fit preprocessing within each training split, align model configurations and regenerate the report from the resulting outputs. These changes are not implemented in the supplied script.
 
-## Contributors
+## My contribution
 
-Developed as a three-person coursework project for DG1FAID at ONCAMPUS Aston, academic year 2025–26. **Mohamed Kemouche** contributed data cleaning and imputation analysis.
+Our student-performance dataset contained missing values that needed to be handled before modelling. I worked on cleaning the data and analysing how imputation changed its distributions, including the trade-off between filling missing values and losing records through deletion.
 
-When reporting an issue, include the script version, Python/package versions, whether you used the CSV or synthetic fallback, and the full error message. Use synthetic examples when sharing data.
+I completed this work as part of a three-person DG1FAID coursework project at ONCAMPUS Aston in 2025-26.
+
+## Reporting issues
+
+If you find a bug, include your Python and package versions, the steps to reproduce it and the error message. Mention whether you used the generated sample data or your own CSV. Use synthetic examples when sharing data.
